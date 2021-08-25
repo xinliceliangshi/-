@@ -1,0 +1,31 @@
+.example {
+  display: block;
+  width: 100%;
+  padding: 50rpx 0;
+  height: 100rpx;
+  font-family:‘Times New Roman’, Times, serif;
+}
+.marquee_box {
+  width: 100%;
+  padding: 50rpx 0;
+  position: relative;
+  font-family:‘Times New Roman’, Times, serif;
+}
+.marquee_text {
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  font-family:‘Times New Roman’, Times, serif;
+  color:rebeccapurple;
+}
+.footer {
+  padding: 50rpx 0;
+  background: #f2f2f2;
+  text-align: center;
+}
+.footer  .pic{
+
+  width: 600rpx;
+  height: 400rpx;
+}
+

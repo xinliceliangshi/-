@@ -1,0 +1,97 @@
+page{
+  background-color :white;
+}
+.idxCon{padding: 50rpx 30rpx}
+.row{
+display: flex;
+border-bottom: 1px solid #087ce7;
+padding: 15rpx 0 ;
+height: 300rpx;
+justify-content: space-between;
+}
+
+.rowTxt
+{
+  height: 90%;
+  width: 100%;
+  font-family:‘Times New Roman’, Times, serif;
+}
+.rowTxt .title{
+  font-family:‘Times New Roman’, Times, serif;
+  font-size: 30rpx;
+  height: 100rpx;
+  font-weight:bold;
+  line-height: 170rpx;
+}
+.rowTxt .info
+{
+  font-family:‘Times New Roman’, Times, serif;
+  font-size: 26rpx;
+  color:rgb(125, 138, 248);
+padding: 10rpx 0 100rpx;
+line-height: 250rpx;
+}
+.rowPic{
+  height: 100%;width: 100%;
+  display: inline-block;
+  margin-left: 290rpx;
+  transform: translateY(-200px);
+}
+
+
+  
+.rowPic image{
+  width: 180px;
+  height: 250rpx;
+  font-size: 14px;
+}
+.add_icon{
+position: flex;
+width:100rpx;
+height:100rpx;
+bottom:-430rpx;
+right: -550rpx;
+}
+.add_icon1{
+ left: -40rpx;
+  position: flex;
+  width:100rpx;
+  height:100rpx;
+  bottom:-330rpx;
+  }
+ .content{
+  width: 200px;
+  font-size: 13px;
+  letter-spacing: 1px;
+
+  word-break: break-all;
+ }
+ .rowTop{
+   position: fixed;
+   display: flex;justify-content: flex-start;align-items: center;
+ }
+.rowTop .user{display: flex;align-items: center;color: slateblue;
+  
+border-bottom: 1px solid rgb(235, 104, 104); height: 10rpx;}
+.rowTop .user image{width: 80rpx;height: 80rpx;border-radius:50% ;margin-right: 15rpx;
+ }
+.rowTop .user .text{font-size: 36rpx;}
+.user1 image{
+  width: 30px;
+  height: 30px;
+}
+.user1 .txt{
+width: 130rpx;
+height: 70px;
+display: flex;
+
+justify-content: center;
+transform: translateX(40px)translateY(-40px);
+color: blueviolet;
+
+font-size: 13px;
+
+font-family: "Verdana", "Tahoma","宋体";
+margin-top: 15rpx;
+justify-content: center;
+}

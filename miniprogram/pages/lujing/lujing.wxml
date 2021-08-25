@@ -1,0 +1,206 @@
+<view class="container">
+  <view class="title">学习基础路径</view>
+  <view class="title1">计算机基础知识</view>
+  <view class="main">
+    不管是不是科班出身，每一个程序员都应该花时间了解和学习计算机科学相关的基础知识，因为所有关于如何编程的底层逻辑和原理都在那里了。
+    
+  </view>
+  <view class="dyMain" >
+      <navigator class="dyItem" url=""   >
+       
+        <view class="txt">
+          <view class="title">
+            数据结构与算法之美
+          </view>
+          20个经典数据结构与算法；
+
+100个真实项目场景案例；
+
+文科生都能懂的算法手绘图解；
+
+轻松搞定BAT的面试通关秘籍。
+        </view>
+      </navigator>
+    </view>
+
+    <view class="dyMain" >
+      <navigator class="dyItem" url=""   >
+        
+        <view class="txt">
+          <view class="title">
+            编译原理之美
+          </view>
+          系统掌握编译器核心技术；
+手动实现解释型和编译型语言；
+4大案例剖析编译技术的实际应用；
+编译技术的趋势解读。
+        </view>
+      </navigator>
+    </view>
+
+
+
+    <view class="dyMain" >
+      <navigator class="dyItem" url=""   >
+        
+        <view class="txt">
+          <view class="title">
+            深入浅出计算机组成原理
+    <view class="dyMain" >
+      <navigator class="dyItem" url=""   >
+        
+        <view class="txt">
+          <view class="title">
+     
+          </view>
+          学以致用的计算机底层知识；
+
+30+计算机组成原理核心要点；
+
+洞悉性能问题的本质；
+
+组成原理在工业界的实际应用。
+
+          
+        </view>
+      </navigator>
+    </view>
+
+          </view>
+    
+        </view>
+      </navigator>
+    </view>
+    <view class="dyMain" >
+      <navigator class="dyItem" url=""   >
+        
+        <view class="txt">
+          <view class="title">
+            趣谈Linux操作系统
+          </view>
+          快速上手Linux操作系统；
+
+趣味图解内核工作原理；
+
+熟练掌握程序运行机制；
+
+讲练结合修炼底层能力。
+        </view>
+      </navigator>
+    </view>
+
+    <view class="dyMain" >
+      <navigator class="dyItem" url=""   >
+        
+        <view class="txt">
+          <view class="title">
+            软件工程之美
+          </view>
+          拿来即用的软件工程方法论；
+日常工作的实战场景剖析；
+谷歌、微软等公司的最佳实践案例；
+从软件工程的视角来思考问题。
+        </view>
+      </navigator>
+    </view>
+
+
+    <view class="dyMain" >
+      <navigator class="dyItem" url=""   >
+        
+        <view class="txt">
+          <view class="title">
+            程序员的数学基础
+          </view>
+          工程师必备的数学思想剖析；
+
+常用概率统计与线性代数精讲；
+
+数学理论在编程中的实际应用；
+
+人工智能入门必修课。
+        </view>
+      </navigator>
+    </view>
+
+
+    <view class="dyMain" >
+      <navigator class="dyItem" url=""   >
+        
+        <view class="txt">
+          <view class="title">
+            编译原理实战
+
+          </view>
+          编译原理的核心基础知识
+7 大主流语言的编译器源码解读
+真实编译器的实现机制与关键算法
+从编程语言设计层面理解编译原理
+        </view>
+      </navigator>
+    </view>
+
+
+
+
+
+
+
+
+
+
+
+
+  <view   class="imgGroup">
+    <image  mode="widthFix"  src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/fa96a398ed927b9e6c4dabcdb7bb1370.jpg">
+    </image>
+    <view class="main">
+      计算机基础知识汇总了包括数据结构与算法、数学、操作系统、计算机组成原理、计算机网络、软件工程在内的常用计算机科学知识，以帮你快速建立对计算机科学的大局观。
+  </view>
+  <image  mode="widthFix"  src="">
+    </image>
+    <view class="main">
+     
+  </view>
+    <image src="">
+    </image>
+  </view>
+
+
+
+
+</view>
+
+
+
+<!-- html -->
+<view class="cards"   wx:for="{{items}}" wx:for-item="item" wx:key="item">
+	<navigator class="nav" url="">
+		<!-- 左侧图片 -->
+		<view class="card card-url">
+			<image src="{{item.img_src}}" mode="widthFix"></image>
+		</view>
+		<!-- 右侧文本区域 -->
+		<view class=" card card-text">
+			<view class="card-title">{{item.title}}</view>
+			<view class="card-desc">{{item.desc}}</view>
+			<!-- 下方浏览等数据 -->
+			<view class="card-bottom">
+				<view>
+					<image src="/images/watch.png"></image>
+					<text>1234</text>
+				</view>
+				<view>
+					<image src="/images/pinglun.png"></image>
+					<text>50</text>
+				</view>
+				<view>
+					<image src="/images/like.png"></image>
+					<text>670</text>
+				</view>
+			</view>
+		</view>
+	</navigator>
+	<!-- 卡片与卡片的空白间隔 -->
+	<view class="space"></view>
+</view>

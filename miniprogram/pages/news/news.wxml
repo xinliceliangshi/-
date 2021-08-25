@@ -1,0 +1,30 @@
+<view class="container" >
+  <view class="title">{{dataOne.title}}</view>
+  <view class="info">作者：{{dataOne.author}}. 时间：2018-12-07</view>
+  <view class="main">
+    {{dataOne.content}}
+  </view>
+  <view   class="imgGroup">
+    <image  mode="widthFix"  src="{{dataOne.pic[0]}}">
+    </image>
+    <view class="main">
+      {{dataOne.content1}}
+  </view>
+  <image  mode="widthFix"  src="{{dataOne.pic[1]}}">
+    </image>
+    <view class="main">
+     {{dataOne.content2}}
+  </view>
+    <image src="">
+    </image>
+  </view>
+
+
+  <view class="zanBox">
+    <image src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/赞.png">
+    </image>
+    <view class="num">11</view>
+  </view>
+  <view class="pingBox"></view>
+
+</view>

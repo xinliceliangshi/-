@@ -1,0 +1,177 @@
+
+<view>
+     <view>
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+            <!-- 搜索框 -->
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="请输入搜索内容"/>
+                </view>
+            </view>
+            <!-- 搜索按钮,调用搜索查询方法 -->
+            <view class="weui-search-bar__cancel-btn" bindtap='方法名a'>搜索</view>
+        </view>
+    </view>
+</view>
+
+<custom-swiperk imgUrls="{{carouselImgUrls}}" /> 
+
+
+
+
+
+
+
+
+<view class="liubai"></view>
+<scroll-view class="major" scroll-x>
+
+  <navigator class="box" url="/pages/acm/acm">
+    <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/气球.png" />
+    <view class="txt">ACM</view>
+
+  </navigator>
+  <navigator class="box"url="/pages/unity/unty">
+    <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/unity.png" />
+    <view class="txt">U3D</view>
+  </navigator>
+
+  <navigator class="box" url="/pages/anquan/anquan">
+    <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/网络安全.png" />
+    <view class="txt">网络安全</view>
+  </navigator>
+
+  <navigator class="box" url="/pages/robot/robot">
+    <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/机器人.png" />
+    <view class="txt">机器人</view>
+  </navigator>
+  <view class="liubai"></view>
+  <navigator class="box" url="">
+    <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/数据.png" />
+    <view class="txt">大数据</view>
+  </navigator>
+
+  <navigator class="box" url="">
+    <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/软件.png" />
+    <view class="txt">软件</view>
+  </navigator>
+  <navigator class="box" url="">
+    <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/数学.png" />
+    <view class="txt">数模</view>
+  </navigator>
+  <navigator class="box" url="">
+    <image class="pic" src="/images/ios.png" />
+    <view class="txt">iOS</view>
+  </navigator>
+
+</scroll-view>
+
+<view class="works">
+  <view calss="container">
+    <view class="pubTile">
+      <view class="txt">社团动态</view>
+      <navigator class="more">更多></navigator>
+    </view>
+
+
+    <view class="wkMain">
+
+      <navigator class="box" url="/pages/yuyue/yuyue">
+        <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/acm1.png"></image>
+
+        <view class="ceng">
+          <view class="tit">ACM集训</view>
+          <view class="line"></view>
+          <view class="des">我的预约</view>
+        </view>
+      </navigator>
+
+      <navigator class="box"url="/pages/yuyue/yuyue">
+        <image class="pic" src="/images/u3d.jpg"></image>
+        <view class="ceng">
+          <view class="tit">U3d集训</view>
+          <view class="line"></view>
+          <view class="des">我的预约</view>
+        </view>
+      </navigator>
+
+      <navigator class="box"url="/pages/yuyue/yuyue">
+        <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/网络货运平台.png"></image>
+        <view class="ceng">
+          <view class="tit">网络安全集训</view>
+          <view class="line"></view>
+          <view class="des">我的预约</view>
+        </view>
+      </navigator>
+
+      <navigator class="box"url="/pages/yuyue/yuyue">
+        <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/机器.jfif"></image>
+        <view class="ceng">
+          <view class="tit">机器人集训</view>
+          <view class="line"></view>
+          <view class="des">我的预约</view>
+        </view>
+      </navigator>
+
+    </view>
+  </view>
+</view>
+
+
+<view class="dynamic">
+
+  <view calss="container">
+    <view class="pubTile">
+      <view class="txt">文章学习</view>
+      <navigator class="more">更多></navigator>
+    </view>
+
+    <view class="dyMain" >
+      <navigator class="dyItem" url="/pages/news/news?id={{item._id}}"   wx:for="{{dataList}}"wx:key="index">
+        <view class="pic">
+          <image src="/images/xuexi2.jpg"></image>
+        </view>
+        <view class="txt">
+          <view class="title">
+           {{item.title}}
+          </view>
+          <view class="info">
+            作者：{{item.author}}<text space="ensp"> - </text>>阅读量: {{item.hits}}
+          </view>
+          
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<view class="footer">
+  <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/233.jpg"></image>
+  <view class="text">- 1024 -</view>
+
+</view>
+<view class="menu-box">
+  <view class="navbar {{ play?'active':'' }}">
+    <view class="btn" bindtap="changePlay">
+      <view class="line" animation="{{ !play?line1CloseAn:line1OpenAn }}"></view>
+      <view class="line" animation="{{ !play?line2CloseAn:line2OpenAn }}"></view>
+      <view class="title" animation="{{ !play?titleCloseAn:titleOpenAn }}">
+        菜单
+      </view>
+    </view>
+  </view>
+  <view class="menu" >
+   
+    <view animation="{{ !play?btn3Close:btn3Open }}" bindtap="change1">
+      <text>路径</text>
+    </view>
+    <view animation="{{ !play?btn2Close:btn2Open }}" bindtap="change2">
+      <text>推文</text>
+    </view>
+    <view animation="{{ !play?btn1Close:btn1Open }}" bindtap="change3">
+      <text>通知</text>
+    </view>
+  </view>
+</view>
+

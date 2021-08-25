@@ -1,0 +1,365 @@
+page{
+  background-color: white;
+}
+.pubTile {
+  display: flex;
+  justify-content: space-between;
+  height: 60rpx;
+ /* border: 1px solid red;*/
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+
+.pubTile .txt {
+  font-family:‘Times New Roman’, Times, serif;
+  font-size: 40 rpx;
+  height: 100%;
+  position: relative;
+  padding-left: 20rpx;
+}
+
+.pubTile .txt:before {
+  font-family:‘Times New Roman’, Times, serif;
+  display: block;
+  width: 10rpx;
+  height: 30rpx;
+ background:
+    #7cc2f1;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -25rpx;
+}
+
+.pubTile .more {
+  font-family:‘Times New Roman’, Times, serif;
+  font-size: 28rpx;
+  color: #666;
+  float: right;
+}
+
+
+
+
+.header {
+  width: 750rpx;
+  height: 90rpx;
+  border: 1px solid black;
+}
+
+.hdCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.hdCon navigator,
+.hdCon .kefu {
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.hdCon image {
+  height: 100%;
+}
+
+.kefu {
+  position: relative;
+}
+
+.kefu .btn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+
+.banner {
+  width: 100%;
+  height: 300rpx;
+}
+
+.banner swiper {
+  height: 100%;
+  width: 100%;
+}
+
+.banner image {
+  width: 100%;
+  height: 295rpx;
+}
+
+.liubai {
+  width: 750rpx;
+  height: 10rpx;
+}
+
+/*.majorCon{ display: flex;padding: 20rpx 0}
+.major .pic{text-align:center;padding-block: 0 26rpx;}
+.major .pic{width: 90rpx;height: 90rpx;}
+.major .txt{font-size:26rpx;}*/
+.major .box {
+  text-align: center;
+  width: 182.6rpx;
+  border: 1px;
+  display:
+    inline-block;
+}
+
+.major .pic {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.major .txt {
+  font-size: 26rpx;
+  font-family:‘Times New Roman’, Times, serif;
+  font-family:‘Times New Roman’, Times, serif;
+}
+
+
+.works {
+  background: #f0f3f8;
+  padding: 90rpx 0 70rpx;
+}
+
+.wkMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wkMain .box {
+  width: 370rpx;
+  height: 214rpx;
+  margin-bottom: 10rpx;
+  position: relative;
+}
+
+.wkMain .pic {
+  width: 100%;
+  height: 100%;
+}
+
+.wkMain .ceng {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.wkMain .ceng .tit {
+  font-size: 34rpx;
+  font-family:‘Times New Roman’, Times, serif;
+}
+
+.wkMain .ceng .line {
+  width: 50rpx;
+  height: 2rpx;
+  background: #fff;
+  margin: 10rpx 0 20rpx;
+}
+
+.wkMain .ceng .des {
+  opacity: 0.6;
+  text-transform: uppercase;
+  font-size: 24rpx;
+  font-family:‘Times New Roman’, Times, serif;
+  letter-spacing: 5rpx;
+}
+
+
+.dynamic {
+  padding: 90rpx 0 70rpx;
+}
+
+.dyItem {
+  display: flex;
+  padding: 15rpx 0;
+  border: 1rpx dashed #f4f4f4;
+  justify-content: space-between;
+}
+
+.dyItem .pic {
+  width: 230rpx;
+  height: 150rpx;
+}
+
+.dyItem .pic image {
+  width: 100%;
+  height: 100%;
+}
+
+.dyItem .txt {
+  width: 440rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family:‘Times New Roman’, Times, serif;
+}
+
+.dyItem .title {
+  font-size: 34rpx;
+  font-family:‘Times New Roman’, Times, serif;
+}
+
+.dyItem .info {
+  font-size: 26rpx;
+  color: #888;
+  font-family:‘Times New Roman’, Times, serif;
+}
+
+.dyItem .info text {
+  font-size: 22rpx;
+  font-family:‘Times New Roman’, Times, serif;
+}
+
+.footer {
+  padding: 50rpx 0;
+  background: #f2f2f2;
+  text-align: center;
+}
+.footer  .pic{
+
+  width: 600rpx;
+  height: 400rpx;
+}
+.weui-search-bar {
+  position: relative;
+  padding: 8px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #EFEFF4;
+  border-top: 1rpx solid #D7D6DC;
+  border-bottom: 1rpx solid #D7D6DC;
+}
+.weui-icon-search_in-box {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.weui-search-bar__form {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+          flex: auto;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 1rpx solid #E6E6EA;
+}
+.weui-search-bar__box {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.weui-search-bar__input {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  font-family:‘Times New Roman’, Times, serif;
+}
+.weui-search-bar__cancel-btn {
+  margin-left: 10px;
+  line-height: 28px;
+  color: black;
+  white-space: nowrap;
+}
+
+.menu-box {
+  position: fixed;
+  bottom: 10vw;
+  right: 30rpx;
+  width: 100rpx;
+  padding-bottom: 100rpx;
+}
+.menu-box .navbar {
+  z-index: 1000;
+  position: absolute;
+  bottom: 0rpx;
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 0rpx;
+  font-family:‘Times New Roman’, Times, serif;
+  border-radius: 50%;
+}
+.menu-box .navbar>.btn {
+  padding: 25rpx;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.menu-box .navbar>.btn>.line {
+  height: 6rpx;
+  background-color: white;
+  margin: 0px 2rpx 6rpx 2rpx;
+  border-radius: 6rpx;
+}
+.menu-box .navbar>.btn>.title {
+  font-size: 20rpx;
+  font-family:‘Times New Roman’, Times, serif;
+}
+.menu-box .active {
+  background-color: rgb(168, 243, 253);
+}
+.menu-box .menu{
+  /* width: 100rpx; */
+  height: 100rpx;
+  /* overflow: hidden; */
+  position: relative;
+  /* margin: 0 auto; */
+  bottom: -100rpx;
+}
+.menu-box .menu>view {
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 20rpx;
+  border-radius: 50%;
+  height: 100rpx;
+  line-height: 100rpx;
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  font-size: 0rpx;
+  font-family:‘Times New Roman’, Times, serif;
+  color: red;
+}
+.menu-box .menu>view text{
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  width:100%;
+  height: 100%;
+  color: white;
+  z-index: 10000;
+  font-size: 25rpx;
+  font-family:‘Times New Roman’, Times, serif;
+}
+
+
+

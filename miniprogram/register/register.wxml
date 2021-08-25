@@ -1,0 +1,25 @@
+<view>----------------------------------比赛通知---------------------------------</view>
+<view class="example">
+  <view class="marquee_box">
+    <view class="marquee_text" style="{{orientation}}:{{marqueeDistance}}px;font-size: {{size}}px;">
+      {{text}}
+    </view>
+  </view>
+</view>
+<view>         重复说明</view>
+<view class="example">
+  <view class="marquee_box">
+    <view class="marquee_text" style="{{orientation}}:{{marqueeDistance2}}px;font-size: {{size}}px;">
+      <text>{{text}}</text>
+      <text wx:if="{{marquee2copy_status}}" style="margin-left:{{marquee2_margin}}px;">{{text}}</text>
+     
+    </view>
+
+
+  </view>
+</view>
+<view class="footer">
+  <image class="pic" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/233.jpg"></image>
+  <view class="text">- 1024 -</view>
+
+</view>

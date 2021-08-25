@@ -1,0 +1,25 @@
+<view class="menu-box">
+  <view class="navbar {{ play?'active':'' }}">
+    <view class="btn" bindtap="changePlay">
+      <view class="line" animation="{{ !play?line1CloseAn:line1OpenAn }}"></view>
+      <view class="line" animation="{{ !play?line2CloseAn:line2OpenAn }}"></view>
+      <view class="title" animation="{{ !play?titleCloseAn:titleOpenAn }}">
+        菜单
+      </view>
+    </view>
+  </view>
+  <view class="menu">
+    <view animation="{{ !play?btn4Close:btn4Open }}">
+      <text>我的</text>
+    </view>
+    <view animation="{{ !play?btn3Close:btn3Open }}">
+      <text>购物</text>
+    </view>
+    <view animation="{{ !play?btn2Close:btn2Open }}">
+      <text>个人</text>
+    </view>
+    <view animation="{{ !play?btn1Close:btn1Open }}">
+      <text>哈哈</text>
+    </view>
+  </view>
+</view>

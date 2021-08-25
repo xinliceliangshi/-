@@ -1,0 +1,21 @@
+<view class="container userCon">
+  <form bindsubmit="onSubmit">
+    <input name="title" class="ipt" placeholder="文章标题" />
+    <input name="author" class="ipt" placeholder="文章作者" />
+    <textarea name="content" class="area" placeholder="文章内容  ">
+</textarea>
+
+    <view class="upImg">
+      <view class="upImgBox" wx:for="{{tempPath}}" wx:key="index">
+        <image src="{{item}}"></image>
+        <view class="close" bindtap="closes" data-idx="{{index}}">x</view>
+      </view>
+      <view class="upImgPic" bindtap="addImag">+</view>
+    </view>
+
+    <view class="btnGroup">
+      <button type="primary" form-type="submit">确认发布</button>
+      <button type="primary" form-type="reset" plain>重置</button>
+    </view>
+  </form>
+</view>

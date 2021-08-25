@@ -1,0 +1,37 @@
+
+
+<view class="content">
+   
+    
+   
+   <text class="title">机器人俱乐部简介</text>
+   <image class="image" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/机器.jfif"></image>
+   <text class="article-content">
+    武汉纺织大学机器人俱乐部，旨在调动学生学习计算机的积极性、主动性，使协会会员逐步掌握计算机知识，
+    组织会员参加各种计算机项目小组，整体提高学生代码设计水平，提高程序设计能力，
+    增强学生的总体素质和竟争力，培养学生的团队合作精神。
+    二、机器人简介
+    机器人（Robot）是一种能够半自主或全自主工作的智能机器。历史上最早的机器人见于隋炀帝命工匠按照柳抃形象所营造的木偶机器人，施有机关，有坐、起、拜、伏等能力。 [1] 
+机器人具有感知、决策、执行等基本特征，可以辅助甚至替代人类完成危险、繁重、复杂的工作，提高工作效率与质量，服务人类生活，扩大或延伸人的活动及能力范围。
+    三、指导老师
+    四、俱乐部负责人
+    五、俱乐部成员
+    六、俱乐部获奖情况
+    七、开展活动情况
+    八、俱乐部联系方式
+  </text>
+ 
+
+    <image class="article-images" src="/images/收 藏.png"></image>
+    <text  class="article-text">66</text>
+    <image class="article-images" src="/images/观看.png"></image>
+    <text class="article-text">88</text>
+
+</view>
+
+
+<view class="footer">
+<image class="pic" src="/images/xuexi.jpg"></image>
+<view class="text">- 1024 -</view>
+</view>
+

@@ -1,0 +1,51 @@
+
+<view class="header">
+  <view class="container hdCon">
+
+    <navigator open-type="switchTab" url="/pages/index/index" class="logo">
+      <image src=""  mode="heightFix"></image>
+    </navigator>
+
+    <view class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <image mode="heightFix" src=""></image>
+    </view>
+  </view>
+</view>
+
+<view class="content">
+   
+    
+   
+     <text class="title">ACM俱乐部简介</text>
+     <image class="image" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/acm.jpg"></image>
+     <text class="article-content">
+      武汉纺织大学ACM俱乐部，旨在调动学生学习计算机的积极性、主动性，使协会会员逐步掌握计算机知识，
+      组织会员参加各种计算机专业比赛，整体提高学生代码水平，提高算法与程序设计能力，
+      增强学生的总体素质和竟争力，培养学生的团队合作精神。
+      二、ACM（国际大学生程序设计竞赛）简介
+      国际大学生程序设计竞赛（英文全称：International Collegiate Programming Contest（简称ICPC））
+      是由国际计算机协会（ACM）主办的，一项旨在展示大学生创新能力、团队精神和在压力下编写程序、分析和解决问题能力的年度竞赛。经过近40年的发展，ACM国际大学生程序设计竞赛已经发展成为全球最具影响力的大学生程序设计竞赛。
+      ACM国际大学生程序设计竞赛(ACM-ICPC)又名“脑力之争” (Battle of theBrains)，其举办宗旨是为大学生提供一个集中的展示舞台，表现他们在五个小时的指定时间内解决实际电脑编程问题的超强能力。
+      三、指导老师
+      四、俱乐部负责人
+      五、俱乐部成员
+      六、俱乐部获奖情况
+      七、开展活动情况
+      八、俱乐部联系方式
+    </text>
+   
+
+      <image class="article-images" src="/images/收 藏.png"></image>
+      <text  class="article-text">66</text>
+      <image class="article-images" src="/images/观看.png"></image>
+      <text class="article-text">88</text>
+
+</view>
+
+
+<view class="footer">
+  <image class="pic" src="/images/xuexi.jpg"></image>
+  <view class="text">- 1024 -</view>
+</view>
+

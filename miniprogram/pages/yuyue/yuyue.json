@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "calendar": "../../components/calendar/index"
+  
+  },
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "预约"
+}

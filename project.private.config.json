@@ -1,0 +1,138 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/yuyue/yuyue",
+          "pathName": "pages/yuyue/yuyue",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "register/register",
+          "pathName": "register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "myAppointment/myAppointment",
+          "pathName": "myAppointment/myAppointment",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "appointment/appointment",
+          "pathName": "appointment/appointment",
+          "query": "1",
+          "scene": null
+        },
+        {
+          "name": "pages/user/user",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "check/check",
+          "pathName": "check/check",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/check/check",
+          "pathName": "pages/check/check",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/user",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/detail/detail",
+          "pathName": "pages/detail/detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "personalInfor/personalInfo",
+          "pathName": "personalInfor/personalInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personalInfor/personalInfo",
+          "pathName": "pages/personalInfor/personalInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/news/news",
+          "pathName": "pages/news/news",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/dynamic/dynamic",
+          "pathName": "pages/dynamic/dynamic",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/xuexi/xuexi",
+          "pathName": "pages/xuexi/xuexi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/luntan/luntan",
+          "pathName": "pages/luntan/luntan",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tianqi/tianqi",
+          "pathName": "pages/tianqi/tianqi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/ziyuan/ziyuan",
+          "pathName": "pages/ziyuan/ziyuan",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/lujing/lujing",
+          "pathName": "pages/lujing/lujing",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/news/news",
+          "pathName": "pages/news/news",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

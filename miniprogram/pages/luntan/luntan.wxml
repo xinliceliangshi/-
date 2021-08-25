@@ -1,0 +1,37 @@
+<wxs src="../../wxs/common.wxs" module="common"></wxs>
+<view class="container idxCon">
+    <view class="row" url=""   wx:for="{{newsList}}">
+   
+      <view class="user1">
+          <image src="{{userInfo.avatarUrl}}"></image>
+        <view class="txt">{{userInfo.nickName}}</view>
+    </view>
+    <view class="rowTxt">
+      <view class="title">{{item.title}}</view>
+          <text class="content">{{item.content}}</text>
+          <view class="info">{{item.author}} - {{item.zan}}赞-{{item.ping}}评-
+            {{common.timesFun(item.posttime)}}
+            <view class="rowPic">
+              <image src="{{item.picUrl[0]}}" class="img"></image>
+            </view>
+      </view>
+    </view>
+  </view>
+  <view  catchtap='adddetial'>
+
+      <image  class="add_icon" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/增加 (1).png"></image>
+
+  </view>
+<view  catchtap='shouquan'>
+
+      <image  class="add_icon1" src="cloud://roji-7gntql8nd56ab0e6.726f-roji-7gntql8nd56ab0e6-1305661403/images/增加 (1).png"></image>
+
+  </view>
+
+
+
+
+</view>
+
+
+

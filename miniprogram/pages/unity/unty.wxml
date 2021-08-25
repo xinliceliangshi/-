@@ -1,0 +1,38 @@
+
+<view class="content">
+   
+    
+   
+   <text class="title">U3D俱乐部简介</text>
+   <image class="image" src="/images/u3d.jpg"></image>
+   <text class="article-content">
+    武汉纺织大学U3d俱乐部，旨在调动学生学习计算机的积极性、主动性，使协会会员逐步掌握计算机知识，
+    组织会员参加各种计算机项目小组，整体提高学生代码设计水平，提高程序设计能力，
+    增强学生的总体素质和竟争力，培养学生的团队合作精神。
+    二、Unity简介
+    Unity 是实时3D互动内容创作和运营平台。
+    包括游戏开发、美术、建筑、汽车设计、影视在内的所有创作者，借助Unity将创意变成现实。
+    Unity平台提供一整套完善的软件解决方案  ，可用于创作、运营和变现任何实时互动的2D和3D内容，支持平台包括手机、平板电脑、PC、游戏主机、增强现实和虚拟现实设备。。
+    三、指导老师
+    四、俱乐部负责人
+    五、俱乐部成员
+    六、俱乐部获奖情况
+    七、开展活动情况
+    八、俱乐部联系方式
+  </text>
+ 
+
+    <image class="article-images" src="/images/收 藏.png"></image>
+    <text  class="article-text">66</text>
+    <image class="article-images" src="/images/观看.png"></image>
+    <text class="article-text">88</text>
+
+</view>
+
+
+<view class="footer">
+<image class="pic" src="/images/xuexi.jpg"></image>
+<view class="text">- 1024 -</view>
+</view>
+
+

@@ -1,0 +1,22 @@
+<view class="kx">
+
+<swiper indicator-dots="false" 
+        autoplay="{{true}}" 
+        interval="5000" 
+        indicator-dots="{{false}}" 
+        indicator-color='#8a8a8a' 
+        indicator-active-color='#333' 
+        circular="true" 
+        class="myswiper-block" 
+        bindchange="swiperChange" 
+        previous-margin="100rpx" 
+        next-margin="100rpx" 
+        current="{{0}}">
+  <block wx:for="{{imgUrls}}" wx:index="{{index}}" wx:key="index">
+    <swiper-item class="myswiper-item ">
+      <image mode="aspectFill" src="{{item}}" class="myslide-image {{currentIndex == index ? 'myactive' : 'mycommon'}}" />
+    </swiper-item>
+  </block>
+</swiper>
+
+</view>

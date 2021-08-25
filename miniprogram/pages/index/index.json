@@ -1,0 +1,6 @@
+{
+  "usingComponents": { "custom-swiperk": "/components/theSwiper/theSwiper"
+  
+  },
+  "component": true
+}

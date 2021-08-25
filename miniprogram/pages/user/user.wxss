@@ -1,0 +1,72 @@
+page {
+  background-color: #fff;
+}
+
+.userCon {
+  padding-top: 50rpx;
+  padding-bottom: 100rpx;
+}
+
+.ipt {
+  border: 1rpx solid #fff;
+  height: 80rpx;
+  margin-bottom: 20rpx;
+  border-radius: 8rpx;
+  padding: 0 15rpx;
+  box-sizing: border-box;
+
+}
+
+.area {
+  border: 1rpx solid #eee;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15rpx;
+}
+
+.upImg {
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.upImgBox {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+  margin: 0 10rpx 10rpx, 0;
+  position: relative;
+
+}
+
+.upImgBox image {
+  width: 100%;
+  height: 100%;
+}
+.upImgBox .close{
+  width: 50rpx;
+  height: 50rpx;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 30rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 50rpx;
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+  border-radius: 50%;
+}
+.upImgPic {
+
+  width: 200rpx;
+  height: 200rpx;
+
+
+  background-color: #eee;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 100rpx;
+  color: #999;
+}
+
